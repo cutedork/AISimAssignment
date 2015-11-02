@@ -1,0 +1,306 @@
+fileFormatVersion: 2
+guid: 1b3c5dcf6ad554d6a97e4fc689d1516a
+timeCreated: 1446499380
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: banana_person2:ikHandle1
+    100002: banana_person2:ikHandle2
+    100004: banana_person2:ikHandle3
+    100006: banana_person2:ikHandle4
+    100008: banana_person2:ikHandle5
+    100010: banana_person2:ikHandle6
+    100012: banana_person2:joint1
+    100014: banana_person2:joint10
+    100016: banana_person2:joint11
+    100018: banana_person2:joint12
+    100020: banana_person2:joint13
+    100022: banana_person2:joint14
+    100024: banana_person2:joint15
+    100026: banana_person2:joint16
+    100028: banana_person2:joint17
+    100030: banana_person2:joint18
+    100032: banana_person2:joint19
+    100034: banana_person2:joint2
+    100036: banana_person2:joint20
+    100038: banana_person2:joint3
+    100040: banana_person2:joint4
+    100042: banana_person2:joint5
+    100044: banana_person2:joint6
+    100046: banana_person2:joint7
+    100048: banana_person2:joint8
+    100050: banana_person2:joint9
+    100052: //RootNode
+    100054: hip_r
+    100056: joint1
+    100058: joint10
+    100060: joint11
+    100062: joint12
+    100064: joint13
+    100066: joint14
+    100068: joint15
+    100070: joint16
+    100072: joint17
+    100074: joint18
+    100076: joint20
+    100078: joint21
+    100080: joint22
+    100082: joint3
+    100084: joint4
+    100086: joint7
+    100088: joint9
+    100090: neck
+    100092: polySurface2
+    100094: pPlane5
+    100096: shollder_
+    100098: shoulder_R
+    100100: tail_1
+    400000: banana_person2:ikHandle1
+    400002: banana_person2:ikHandle2
+    400004: banana_person2:ikHandle3
+    400006: banana_person2:ikHandle4
+    400008: banana_person2:ikHandle5
+    400010: banana_person2:ikHandle6
+    400012: banana_person2:joint1
+    400014: banana_person2:joint10
+    400016: banana_person2:joint11
+    400018: banana_person2:joint12
+    400020: banana_person2:joint13
+    400022: banana_person2:joint14
+    400024: banana_person2:joint15
+    400026: banana_person2:joint16
+    400028: banana_person2:joint17
+    400030: banana_person2:joint18
+    400032: banana_person2:joint19
+    400034: banana_person2:joint2
+    400036: banana_person2:joint20
+    400038: banana_person2:joint3
+    400040: banana_person2:joint4
+    400042: banana_person2:joint5
+    400044: banana_person2:joint6
+    400046: banana_person2:joint7
+    400048: banana_person2:joint8
+    400050: banana_person2:joint9
+    400052: //RootNode
+    400054: hip_r
+    400056: joint1
+    400058: joint10
+    400060: joint11
+    400062: joint12
+    400064: joint13
+    400066: joint14
+    400068: joint15
+    400070: joint16
+    400072: joint17
+    400074: joint18
+    400076: joint20
+    400078: joint21
+    400080: joint22
+    400082: joint3
+    400084: joint4
+    400086: joint7
+    400088: joint9
+    400090: neck
+    400092: polySurface2
+    400094: pPlane5
+    400096: shollder_
+    400098: shoulder_R
+    400100: tail_1
+    2300000: pPlane5
+    3300000: pPlane5
+    4300000: pPlane5
+    4300002: polySurface2
+    7400000: running
+    9500000: //RootNode
+    13700000: polySurface2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: running
+      takeName: running
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: banana_person2:ikHandle1
+        weight: 1
+      - path: banana_person2:ikHandle2
+        weight: 1
+      - path: banana_person2:ikHandle3
+        weight: 1
+      - path: banana_person2:ikHandle4
+        weight: 1
+      - path: banana_person2:ikHandle5
+        weight: 1
+      - path: banana_person2:ikHandle6
+        weight: 1
+      - path: banana_person2:joint1
+        weight: 1
+      - path: banana_person2:joint1/banana_person2:joint2
+        weight: 1
+      - path: banana_person2:joint1/banana_person2:joint2/banana_person2:joint3
+        weight: 1
+      - path: banana_person2:joint1/banana_person2:joint2/banana_person2:joint3/banana_person2:joint4
+        weight: 1
+      - path: banana_person2:joint5
+        weight: 1
+      - path: banana_person2:joint5/banana_person2:joint6
+        weight: 1
+      - path: banana_person2:joint5/banana_person2:joint6/banana_person2:joint7
+        weight: 1
+      - path: banana_person2:joint5/banana_person2:joint6/banana_person2:joint7/banana_person2:joint8
+        weight: 1
+      - path: banana_person2:joint9
+        weight: 1
+      - path: banana_person2:joint9/banana_person2:joint10
+        weight: 1
+      - path: banana_person2:joint9/banana_person2:joint10/banana_person2:joint11
+        weight: 1
+      - path: banana_person2:joint9/banana_person2:joint10/banana_person2:joint11/banana_person2:joint12
+        weight: 1
+      - path: banana_person2:joint13
+        weight: 1
+      - path: banana_person2:joint13/banana_person2:joint14
+        weight: 1
+      - path: banana_person2:joint13/banana_person2:joint14/banana_person2:joint15
+        weight: 1
+      - path: banana_person2:joint13/banana_person2:joint14/banana_person2:joint15/banana_person2:joint16
+        weight: 1
+      - path: banana_person2:joint17
+        weight: 1
+      - path: banana_person2:joint17/banana_person2:joint18
+        weight: 1
+      - path: banana_person2:joint17/banana_person2:joint18/banana_person2:joint19
+        weight: 1
+      - path: banana_person2:joint17/banana_person2:joint18/banana_person2:joint19/banana_person2:joint20
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/hip_r
+        weight: 1
+      - path: joint1/hip_r/joint3
+        weight: 1
+      - path: joint1/hip_r/joint3/joint4
+        weight: 1
+      - path: joint1/joint13
+        weight: 1
+      - path: joint1/joint13/joint14
+        weight: 1
+      - path: joint1/joint13/joint14/joint15
+        weight: 1
+      - path: joint1/shollder_
+        weight: 1
+      - path: joint1/shollder_/joint16
+        weight: 1
+      - path: joint1/shollder_/joint16/joint17
+        weight: 1
+      - path: joint1/shollder_/joint16/joint17/joint18
+        weight: 1
+      - path: joint1/shollder_/neck
+        weight: 1
+      - path: joint1/shollder_/neck/joint7
+        weight: 1
+      - path: joint1/shollder_/neck/joint7/joint11
+        weight: 1
+      - path: joint1/shollder_/neck/joint7/joint11/joint12
+        weight: 1
+      - path: joint1/shollder_/shoulder_R
+        weight: 1
+      - path: joint1/shollder_/shoulder_R/joint9
+        weight: 1
+      - path: joint1/shollder_/shoulder_R/joint9/joint10
+        weight: 1
+      - path: joint1/shollder_/tail_1
+        weight: 1
+      - path: joint1/shollder_/tail_1/joint20
+        weight: 1
+      - path: joint1/shollder_/tail_1/joint20/joint21
+        weight: 1
+      - path: joint1/shollder_/tail_1/joint20/joint21/joint22
+        weight: 1
+      - path: polySurface2
+        weight: 1
+      - path: pPlane5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 50
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

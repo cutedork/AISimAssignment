@@ -7,6 +7,9 @@ public class Mouse : MonoBehaviour {
 
 	public Transform cat;
 
+	// audio
+	public AudioSource heavyBreathing;
+
 	 Rigidbody rb;
 
 	void Start () {
@@ -41,8 +44,13 @@ public class Mouse : MonoBehaviour {
 				// if mouseRayHitInfo.collider.tag is exactly equal to the word "Cat" 
 				// ... (mouse sees cat!)
 				if (mouseRayHitInfo.collider.tag == "Cat") {
+					// heavy breathing sound
+					heavyBreathing.Play ();
+
 					// add force on rigidbody, along [-directionToCat.normalized * 1000f] (run away!)
 					rb.AddForce(-directionToCat.normalized * 1000f); 
+
+
 				}
 			}
 		}

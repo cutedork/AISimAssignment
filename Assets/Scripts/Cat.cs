@@ -6,6 +6,10 @@ public class Cat : MonoBehaviour {
 	// declare a public variable, of type Transform, called "mouse"
 	public Transform mouse;
 
+	// audio 
+	public AudioSource evilLaugh;
+	public AudioSource scream;
+
 	Rigidbody rb;
 	
 	void Start () {
@@ -41,6 +45,8 @@ public class Cat : MonoBehaviour {
 
 				// if catRayHitInfo.collider.tag is exactly equal to the word "Mouse" (cat sees the mouse!)
 				if (catRayHitInfo.collider.tag == "Mouse" ) {
+					// play evil laugh sound
+					evilLaugh.Play ();
 
 					
 					// if catRayHitInfo.distance is less than or equal to 5... 
@@ -48,6 +54,8 @@ public class Cat : MonoBehaviour {
 
 						// then destroy the mouse gameObject (we caught the mouse!) 
 						Destroy(mouse.gameObject);
+						// play scream sound
+						scream.Play ();
 
 					} else {
 						// add force on rigidbody, along [directionToMouse.normalized * 1000f] (chase it!)
