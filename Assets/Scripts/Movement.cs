@@ -11,7 +11,7 @@ public class Movement : MonoBehaviour {
 
 	void FixedUpdate () {
 		// set rigidbody velocity equal to [current forward direction] * 10f + Physics.gravity 
-		rb.velocity = transform.forward * 10f + Physics.gravity;
+		rb.velocity = transform.forward * 5f + Physics.gravity;
 
 		// declare a var of type Ray, called "moveRay" that starts from [current position] 
 		// and goes [current forward direction]
